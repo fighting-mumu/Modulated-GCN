@@ -78,7 +78,9 @@ If you want to try different network settings, please refer to [`opt1.py`](opt1.
 default setting of hyper-parameters is used for training model with CPN detectors as input, please refer to the paper for implementation details.
 
 ### Evaluating the trained models
-
+```
+python main_graph.py --module_gcn_reload 1 --previous_dir './ckpt' --save_dir './ckpt__normal_model' --module_gcn_model './ckpt/xxx.pth'
+```
 
 
 ### GT setup 
